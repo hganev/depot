@@ -63,7 +63,7 @@ class LineItemsController < ApplicationController
     product_title = @line_item.product.title
     @line_item.destroy
     respond_to do |format|
-      format.html { redirect_to cart_path(cart_id), notice: "'#{product_title}' successfully removed from the cart" }
+      format.html { redirect_to cart_url(cart_id), notice: "'#{product_title}' successfully removed from the cart" }
       format.json { head :no_content }
     end
   end
