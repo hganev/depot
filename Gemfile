@@ -48,3 +48,7 @@ gem 'rvm-capistrano', group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem 'activemerchant', '~> 1.31'
+gem 'haml', '~> 4.0'
+gem 'kaminari', '~> 0.14'
