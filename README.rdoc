@@ -1,3 +1,5 @@
 == README
 
 Depot is a web-based shopping cart application
+
+It is integrated with CI system.
